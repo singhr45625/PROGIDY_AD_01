@@ -63,6 +63,27 @@ class _CalculatorAppState extends State<CalculatorApp> {
                     ),
                   ),
                 ),
+                SizedBox(
+                  width: 70,
+                  height: 70,
+                  child: TextButton(
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.grey[300], // Button color
+                      foregroundColor: Colors.black, // Text color
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(5.0),
+                      ),
+                      padding: EdgeInsets.all(10),
+                    ),
+                    onPressed: () {},
+                    child: Text(
+                      '9',
+                      style: GoogleFonts.rubik(
+                        textStyle: TextStyle(fontSize: 24),
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
           ],
