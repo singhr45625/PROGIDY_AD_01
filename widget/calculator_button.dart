@@ -21,8 +21,8 @@ class CalculatorButton extends StatelessWidget {
     return Container(
       margin: EdgeInsets.all(5),
       child: SizedBox(
-        width: 65,
-        height: 65,
+        width: 75,
+        height: 75,
         child: TextButton(
           style: TextButton.styleFrom(
             backgroundColor: Color(fillColor), // Button color

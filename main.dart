@@ -99,7 +99,7 @@ class _CalculatorAppState extends State<CalculatorApp> {
             alignment: Alignment.centerRight,
             child: Text(
               result,
-              style: GoogleFonts.rubik(fontSize: 40, color: Colors.black),
+              style: GoogleFonts.rubik(fontSize: 60, color: Colors.black),
             ),
           ),
 
